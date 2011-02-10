@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1326}}";
+			sepNavSelRange = "{1198, 0}";
+			sepNavVisRange = "{486, 1245}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LocalNotifier */ = {
+		activeExec = 0;
+		executables = (
+			75542E671303C72B00B29781 /* LocalNotifier */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* LocalNotifierViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {766, 375}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 630}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* LocalNotifierViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1963}}";
+			sepNavSelRange = "{3423, 0}";
+			sepNavVisRange = "{1261, 963}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 75542E671303C72B00B29781 /* LocalNotifier */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LocalNotifier */;
+		codeSenseManager = 75542E791303C73E00B29781 /* Code sense */;
+		executables = (
+			75542E671303C72B00B29781 /* LocalNotifier */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					588,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319014699;
+			PBXWorkspaceStateSaveDate = 319014699;
+		};
+		perUserProjectItems = {
+			75542E711303C73E00B29781 /* PBXBookmark */ = 75542E711303C73E00B29781 /* PBXBookmark */;
+			75542E721303C73E00B29781 /* PBXTextBookmark */ = 75542E721303C73E00B29781 /* PBXTextBookmark */;
+			75542E831303F1BF00B29781 /* PBXTextBookmark */ = 75542E831303F1BF00B29781 /* PBXTextBookmark */;
+			75542E841303F1BF00B29781 /* PBXTextBookmark */ = 75542E841303F1BF00B29781 /* PBXTextBookmark */;
+			75542E851303F1BF00B29781 /* PBXTextBookmark */ = 75542E851303F1BF00B29781 /* PBXTextBookmark */;
+			75542E861303F1BF00B29781 /* PBXTextBookmark */ = 75542E861303F1BF00B29781 /* PBXTextBookmark */;
+			75542E871303F1EC00B29781 /* PBXTextBookmark */ = 75542E871303F1EC00B29781 /* PBXTextBookmark */;
+			75542E881303F1F100B29781 /* PBXTextBookmark */ = 75542E881303F1F100B29781 /* PBXTextBookmark */;
+			75542E8D1303F21C00B29781 /* PBXTextBookmark */ = 75542E8D1303F21C00B29781 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 75542E781303C73E00B29781 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	75542E671303C72B00B29781 /* LocalNotifier */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LocalNotifier;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	75542E711303C73E00B29781 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+	};
+	75542E721303C73E00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1413;
+		vrLoc = 491;
+	};
+	75542E781303C73E00B29781 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	75542E791303C73E00B29781 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	75542E831303F1BF00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalNotifierViewController.h */;
+		name = "LocalNotifierViewController.h: 11";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	75542E841303F1BF00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LocalNotifierViewController.m */;
+		name = "LocalNotifierViewController.m: 98";
+		rLen = 0;
+		rLoc = 3423;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 1261;
+	};
+	75542E851303F1BF00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 491;
+	};
+	75542E861303F1BF00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 835;
+		rType = 0;
+		vrLen = 1338;
+		vrLoc = 486;
+	};
+	75542E871303F1EC00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 486;
+	};
+	75542E881303F1F100B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 486;
+	};
+	75542E8D1303F21C00B29781 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotifierAppDelegate.m */;
+		name = "LocalNotifierAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 486;
+	};
+}

@@ -1,0 +1,453 @@
+TLocalNotifier
+v7
+r0
+t319014811.511427
+cCheck dependencies
+cCpResource build/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/Info.plist LocalNotifier-Info.plist
+cCompileXIB /Users/anurag/Desktop/LocalNotifier/MainWindow.xib
+cCompileXIB /Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib
+cProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch.gch LocalNotifier_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch.gch LocalNotifier_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/main.o /Users/anurag/Desktop/LocalNotifier/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierAppDelegate.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierViewController.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/main.o /Users/anurag/Desktop/LocalNotifier/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierAppDelegate.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier normal armv6
+cCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierViewController.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier normal armv7
+cCreateUniversalBinary /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier normal "armv6 armv7"
+cGenerateDSYMFile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app.dSYM /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier
+cProcessProductPackaging "/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision" /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision
+cTouch /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent
+cCodeSign /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.h
+c000000004D538FAB00000000000001FB
+t1297321899
+s507
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m
+c000000004D538FAB0000000000000AAB
+t1297321899
+s2731
+i"LocalNotifierAppDelegate.h"
+i"LocalNotifierViewController.h"
+
+N/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.h
+c000000004D5390150000000000000276
+t1297322005
+s630
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m
+c000000004D538FAB00000000000005D1
+t1297321899
+s1489
+i"LocalNotifierViewController.h"
+
+N/Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib
+c000000004D538FAB0000000000001A5D
+t1297321899
+s6749
+
+N/Users/anurag/Desktop/LocalNotifier/LocalNotifier_Prefix.pch
+c000000004D538FAB00000000000000C3
+t1297321899
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Desktop/LocalNotifier/MainWindow.xib
+c000000004D538FAB0000000000004E71
+t1297321899
+s20081
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+t1297322011
+s374
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app.dSYM
+t1297322010
+s102
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/Info.plist
+t1297322006
+s805
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier
+t1297322010
+s50496
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifierViewController.nib
+t1297322006
+s795
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/MainWindow.nib
+t1297322006
+s1135
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/PkgInfo
+t1297322006
+s8
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist
+t1297322006
+s485
+
+N/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision
+t1297322010
+s12231
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent
+t1297322010
+s432
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier
+t1297322010
+s21824
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier.LinkFileList
+c000000004D53901600000000000001A2
+t1297322006
+s418
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierAppDelegate.o
+t1297322009
+s51720
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierViewController.o
+t1297322009
+s44784
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/main.o
+t1297322009
+s6440
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier
+t1297322010
+s21824
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier.LinkFileList
+c000000004D53901600000000000001A2
+t1297322006
+s418
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierAppDelegate.o
+t1297322009
+s51640
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierViewController.o
+t1297322009
+s44760
+
+N/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/main.o
+t1297322009
+s6424
+
+N/Users/anurag/Desktop/LocalNotifier/main.m
+c000000004D538FAB0000000000000167
+t1297321899
+s359
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision
+c000000004D33BB7F0000000000002FC7
+t1295235967
+s12231
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch.gch
+t1297322008
+s10446552
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch.gch
+t1297322008
+s9983704
+
+NLocalNotifier-Info.plist
+c000000004D538FAB000000000000038D
+t1297321899
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319014806#319014806#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCodeSign /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+s319014810.312112
+e319014811.511383
+r1
+xCodeSign
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/LocalNotifier.app319014810#319014811#0(0"0(0#0#74"/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app8626179232#668"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Anurag Solanki (FLYLNU2QLG)" --resource-rules=/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist --entitlements /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierAppDelegate.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319014808.971435
+e319014809.246710
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierAppDelegate.o
+x/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m319014808#319014809#0(0"0(0#0#70"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m8649307776#1859"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv6 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierAppDelegate.o0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierViewController.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319014809.223009
+e319014809.323284
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierViewController.o
+x/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-scheduleAlarm:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@81"Compile /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014809#319014809#0(2245"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-scheduleAlarm:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol12(22@126"Property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#0#214#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@133"Property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#214#221#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@128"Property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#435#216#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@135"Property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#651#223#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@126"Property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#874#214#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@133"Property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#1088#221#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@64"Incomplete implementation of class 'LocalNotifierViewController'319014809#1309#152#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#38"incomplete implementation of class '*'0(22@49"Method definition for '-scheduleAlarm:' not found319014809#1461#137#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@64"Incomplete implementation of class 'LocalNotifierViewController'319014809#1598#152#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found319014809#1750#155#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found319014809#1905#155#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@97"Class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol319014809#2060#185#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#51"class '*' does not fully implement the '*' protocol0(0#0#73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m8640038432#1865"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv6 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifierViewController.o0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/main.o /Users/anurag/Desktop/LocalNotifier/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319014808.969523
+e319014809.222914
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/main.o
+x/Users/anurag/Desktop/LocalNotifier/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/anurag/Desktop/LocalNotifier/main.m319014808#319014809#0(0"0(0#0#42"/Users/anurag/Desktop/LocalNotifier/main.m8650094560#1811"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv6 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/main.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierAppDelegate.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319014809.304129
+e319014809.405217
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierAppDelegate.o
+x/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m319014809#319014809#0(0"0(0#0#70"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m8633148672#1859"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv7 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierAppDelegate.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierAppDelegate.o0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierViewController.o /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319014809.405319
+e319014809.568576
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierViewController.o
+x/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-scheduleAlarm:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@81"Compile /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014809#319014809#0(2245"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-scheduleAlarm:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: incomplete implementation of class 'LocalNotifierViewController'/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m:66: warning: class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol12(22@126"Property 'tableview' requires method '-tableview' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#0#214#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@133"Property 'tableview' requires the method 'setTableview:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#214#221#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@128"Property 'datePicker' requires method '-datePicker' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#435#216#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@135"Property 'datePicker' requires the method 'setDatePicker:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#651#223#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@126"Property 'eventText' requires method '-eventText' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#874#214#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@133"Property 'eventText' requires the method 'setEventText:' to be defined - use @synthesize, @dynamic or provide a method implementation319014809#1088#221#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#0"0(22@64"Incomplete implementation of class 'LocalNotifierViewController'319014809#1309#152#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#38"incomplete implementation of class '*'0(22@49"Method definition for '-scheduleAlarm:' not found319014809#1461#137#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@64"Incomplete implementation of class 'LocalNotifierViewController'319014809#1598#152#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found319014809#1750#155#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found319014809#1905#155#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#35"method definition for '*' not found0(22@97"Class 'LocalNotifierViewController' does not fully implement the 'UITableViewDataSource' protocol319014809#2060#185#0(6@73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m319014699#66#0#66#0#51"class '*' does not fully implement the '*' protocol0(0#0#73"/Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m8652589504#1865"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv7 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/Classes/LocalNotifierViewController.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifierViewController.o0#
+
+CCompileC build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/main.o /Users/anurag/Desktop/LocalNotifier/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319014809.246820
+e319014809.304029
+r1
+xCompileC
+xbuild/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/main.o
+x/Users/anurag/Desktop/LocalNotifier/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/anurag/Desktop/LocalNotifier/main.m319014809#319014809#0(0"0(0#0#42"/Users/anurag/Desktop/LocalNotifier/main.m8638430752#1811"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv7 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch -c /Users/anurag/Desktop/LocalNotifier/main.m -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib
+s319014806.559336
+e319014806.941392
+r1
+xCompileXIB
+x/Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib
+lSLF07#2@42"CompileXIB LocalNotifierViewController.xib319014806#319014806#0(0"0(0#0#67"/Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib8652166784#573"    cd /Users/anurag/Desktop/LocalNotifier    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifierViewController.nib /Users/anurag/Desktop/LocalNotifier/LocalNotifierViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/anurag/Desktop/LocalNotifier/MainWindow.xib
+s319014806.558666
+e319014806.978315
+r1
+xCompileXIB
+x/Users/anurag/Desktop/LocalNotifier/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319014806#319014806#0(0"0(0#0#50"/Users/anurag/Desktop/LocalNotifier/MainWindow.xib8652649664#539"    cd /Users/anurag/Desktop/LocalNotifier    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/MainWindow.nib /Users/anurag/Desktop/LocalNotifier/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319014806.533819
+e319014806.558375
+r1
+xCpResource
+xbuild/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319014806#319014806#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3418906600707745280#494"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app0#
+
+CCreateUniversalBinary /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier normal "armv6 armv7"
+s319014810.093155
+e319014810.171588
+r1
+xCreateUniversalBinary
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/LocalNotifier.app/LocalNotifier normal "armv6 armv7"319014810#319014810#0(0"0(0#0#47"/Users/anurag/Desktop/LocalNotifier/armv6 armv78639079584#554"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier -output /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier0#
+
+CGenerateDSYMFile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app.dSYM /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier
+s319014810.171696
+e319014810.243068
+r1
+xGenerateDSYMFile
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app.dSYM
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/LocalNotifier.app.dSYM build/Debug-iphoneos/LocalNotifier.app/LocalNotifier319014810#319014810#0(0"0(0#0#88"/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier8652310592#371"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/LocalNotifier -o /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app.dSYM0#
+
+CLd /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier normal armv6
+s319014809.323378
+e319014810.084550
+r1
+xLd
+x/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier
+xnormal
+xarmv6
+lSLF07#2@136"Link /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier319014809#319014810#0(0"0(0#0#0"8632454880#880"    cd /Users/anurag/Desktop/LocalNotifier    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -filelist /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv6/LocalNotifier0#
+
+CLd /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier normal armv7
+s319014809.568667
+e319014810.093053
+r1
+xLd
+x/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier
+xnormal
+xarmv7
+lSLF07#2@136"Link /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier319014809#319014810#0(0"0(0#0#0"8651862848#880"    cd /Users/anurag/Desktop/LocalNotifier    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -filelist /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/Objects-normal/armv7/LocalNotifier0#
+
+CProcessInfoPlistFile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/Info.plist LocalNotifier-Info.plist
+s319014806.546785
+e319014806.558599
+r1
+xProcessInfoPlistFile
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/Info.plist
+xLocalNotifier-Info.plist
+lSLF07#2@32"Process LocalNotifier-Info.plist319014806#319014806#0(0"0(0#0#60"/Users/anurag/Desktop/LocalNotifier/LocalNotifier-Info.plist8648747488#574"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LocalNotifier-Info.plist -genpkginfo /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/ResourceRules.plist -o /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/Info.plist0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch.gch LocalNotifier_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319014806.979445
+e319014808.969071
+r1
+xProcessPCH
+x/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch.gch
+xLocalNotifier_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile LocalNotifier_Prefix.pch319014806#319014808#0(0"0(0#0#60"/Users/anurag/Desktop/LocalNotifier/LocalNotifier_Prefix.pch8650832256#1706"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv7 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -c /Users/anurag/Desktop/LocalNotifier/LocalNotifier_Prefix.pch -o /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-dvtjrswwnjtymqdqqnahopkotbke/LocalNotifier_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch.gch LocalNotifier_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319014806.978440
+e319014808.778320
+r1
+xProcessPCH
+x/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch.gch
+xLocalNotifier_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile LocalNotifier_Prefix.pch319014806#319014808#0(0"0(0#0#60"/Users/anurag/Desktop/LocalNotifier/LocalNotifier_Prefix.pch8651132640#1706"    cd /Users/anurag/Desktop/LocalNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-generated-files.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-own-target-headers.hmap -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-all-target-headers.hmap -iquote /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier-project-headers.hmap -F/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos -I/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/include -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources/armv6 -I/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/DerivedSources -c /Users/anurag/Desktop/LocalNotifier/LocalNotifier_Prefix.pch -o /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotifier_Prefix-grkqxannmihjtndzhgfvxnbgvpfo/LocalNotifier_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision" /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision
+s319014810.243176
+e319014810.261624
+r1
+xProcessProductPackaging
+x/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision" build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision319014810#319014810#0(0"0(0#0#99"/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision8649208192#424"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/anurag/Library/MobileDevice/Provisioning Profiles/473B2687-2A30-4947-9C61-5C7CF3F5B0CA.mobileprovision" -o /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent
+s319014810.281572
+e319014810.312035
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent319014810#319014810#0(0"0(0#0#116"/Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent8638877376#444"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/anurag/Desktop/LocalNotifier/build/LocalNotifier.build/Debug-iphoneos/LocalNotifier.build/LocalNotifier.xcent0#
+
+CTouch /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+s319014810.261698
+e319014810.281319
+r1
+xTouch
+x/Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app
+lSLF07#2@80"Touch /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app319014810#319014810#0(0"0(0#0#0"8648582400#264"    cd /Users/anurag/Desktop/LocalNotifier    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anurag/Desktop/LocalNotifier/build/Debug-iphoneos/LocalNotifier.app0#
+
